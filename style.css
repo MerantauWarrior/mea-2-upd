@@ -149,6 +149,9 @@ img{
     overflow-x: hidden;
     z-index: 9;
 }
+.module.module-3d{
+    overflow: hidden !important;
+}
 .modal__close{
     width: 40px;
     height: 40px;
@@ -265,13 +268,13 @@ img{
 #index {
     height: 100%;
     width: 100%;
-    position: absolute;
+    position: fixed;
     overflow: hidden;
     left: 0;
     top: 0;
 }
 #index img {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -279,14 +282,14 @@ img{
 }
 #videos, #videos-reverse {
     overflow: hidden;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 }
 #videos video, #videos-reverse video {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: -1;
